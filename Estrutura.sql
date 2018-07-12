@@ -1,0 +1,12 @@
+﻿CREATE TABLE alunos(
+	nome VARCHAR(100) NOT NULL,
+	id INT IDENTITY(1,1) PRIMARY KEY,
+	codigoMatricula VARCHAR(10) NOT NULL,
+	nota1 FLOAT(2,1) NOT NULL,
+	nota2 FLOAT(2,1) NOT NULL,
+	nota3 FLOAT(2,1) NOT NULL,
+	frequencia TINYINT NOT NULL
+	
+);
+
+SELECT * FROM alunos;
